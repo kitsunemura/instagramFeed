@@ -1,0 +1,41 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+header {
+    background: whitesmoke;
+    padding: 10px;
+}
+header h1 {
+    margin: 0;
+    padding: 5px;
+}
+div.photo-container {
+    background: whitesmoke;
+    margin-top: 20px;
+}
+div.photo-container .postHeader div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.photo-container .postHeader div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding-right: 10px;
+    text-align: right;
+    color: grey;
+}
+div.photo-container h2, div.photo-container p {
+    padding: 10px;
+    margin: 0;
+}    
+div.container {
+    width: 640px;
+    margin: auto;
+}
+footer {
+    text-align: center;
+}
